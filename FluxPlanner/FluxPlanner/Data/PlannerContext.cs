@@ -10,6 +10,7 @@ namespace FluxPlanner.Data
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Floor> Floors { get; set; }
  
     }
 }
