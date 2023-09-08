@@ -1,4 +1,4 @@
-using FluxPlanner.Data;
+﻿using FluxPlanner.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

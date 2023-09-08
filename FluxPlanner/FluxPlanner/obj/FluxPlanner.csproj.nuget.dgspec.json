@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FluxPlanner\\FluxPlanner\\fluxplanner\\FluxPlanner.csproj": {}
+    "D:\\FluxPlanner\\FluxPlanner\\FluxPlanner\\FluxPlanner.csproj": {}
   },
   "projects": {
-    "D:\\FluxPlanner\\FluxPlanner\\fluxplanner\\FluxPlanner.csproj": {
+    "D:\\FluxPlanner\\FluxPlanner\\FluxPlanner\\FluxPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FluxPlanner\\FluxPlanner\\fluxplanner\\FluxPlanner.csproj",
+        "projectUniqueName": "D:\\FluxPlanner\\FluxPlanner\\FluxPlanner\\FluxPlanner.csproj",
         "projectName": "FluxPlanner",
-        "projectPath": "D:\\FluxPlanner\\FluxPlanner\\fluxplanner\\FluxPlanner.csproj",
+        "projectPath": "D:\\FluxPlanner\\FluxPlanner\\FluxPlanner\\FluxPlanner.csproj",
         "packagesPath": "C:\\Users\\z004umbe\\.nuget\\packages\\",
-        "outputPath": "D:\\FluxPlanner\\FluxPlanner\\fluxplanner\\obj\\",
+        "outputPath": "D:\\FluxPlanner\\FluxPlanner\\FluxPlanner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\z004umbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,11 +50,19 @@
               "target": "Package",
               "version": "[6.0.21, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.21, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -1,10 +1,9 @@
 ﻿using FluxPlanner.Models;
 using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FluxPlanner.Data
 {
-    public class PlannerContext : DbContext 
+    public class PlannerContext : DbContext
     {
         public PlannerContext(DbContextOptions<PlannerContext> options) : base(options)
         {
@@ -18,7 +17,13 @@ namespace FluxPlanner.Data
             modelBuilder.Entity<User>().HasData(
                 new { UserId = 1, FirstName = "Test", LastName = "Test", Email = "test@t.com", WorkLocation = "WFH" }
             );
-        }
 
+            modelBuilder.Entity<Floor>().HasData(
+                new Floor { FloorId = 1, FloorNumber = 1 },
+                new Floor { FloorId = 2, FloorNumber = 2 },
+                new Floor { FloorId = 3, FloorNumber = 3 },
+                new Floor { FloorId = 4, FloorNumber = 4 }
+            );
+        }
     }
 }
